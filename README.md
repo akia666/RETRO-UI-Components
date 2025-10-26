@@ -1,3 +1,3 @@
-# UI Components
+# Retro UI-Components
 
-Библиотетка UI Components
+Библиотетка Retro UI-components
