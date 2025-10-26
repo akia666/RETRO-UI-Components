@@ -33,7 +33,7 @@ const props = withDefaults(defineProps<IProps>(), {
   padding: 10px 28px;
   font-size: 1rem;
   line-height: 1.4;
-  font-family: 'base', monospace;
+  font-family: 'Press Start 2P';
   font-weight: 400;
   color: var(--retro-text);
   background-color: var(--retro-green);
