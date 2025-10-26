@@ -13,6 +13,7 @@ const config: StorybookConfig = {
   framework: { name: getAbsolutePath('@storybook/vue3-vite'), options: {} },
   stories: ['../src/docs/*.mdx', '../src/**/*.stories.ts'],
   addons: ['@storybook/addon-docs'],
+  staticDirs: ['../public'],
   core: { disableTelemetry: true, disableWhatsNewNotifications: true },
 };
 
