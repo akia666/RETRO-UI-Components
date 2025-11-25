@@ -20,6 +20,6 @@ export const Primary: StoryObj<typeof UiButton> = {
     components: { UiButton },
     setup: () => ({ args }),
 
-    template: html` <UiButton v-bind="args">TEXT</UiButton>`,
+    template: html` <UiButton v-bind="args">ТЕКСТ</UiButton>`,
   }),
 };
