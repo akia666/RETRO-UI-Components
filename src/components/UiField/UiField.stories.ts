@@ -7,11 +7,6 @@ const meta: Meta<typeof UiField> = {
   args: {
     label: 'Поле ввода',
   },
-  argTypes: {
-    label: {
-      control: 'text',
-    },
-  },
 };
 
 export default meta;

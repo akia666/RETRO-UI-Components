@@ -9,17 +9,6 @@ const meta: Meta<typeof UiInput> = {
     placeholder: 'Введите текст..',
     isDisabled: false,
   },
-  argTypes: {
-    modelValue: {
-      control: 'text',
-    },
-    placeholder: {
-      control: 'text',
-    },
-    isDisabled: {
-      control: 'boolean',
-    },
-  },
 };
 
 export default meta;

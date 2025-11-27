@@ -9,17 +9,6 @@ const meta: Meta<typeof UiSelect> = {
     options: ['Опция 1', 'Опция 2', 'Опция 3'],
     isDisabled: false,
   },
-  argTypes: {
-    modelValue: {
-      control: 'text',
-    },
-    options: {
-      control: 'object',
-    },
-    isDisabled: {
-      control: 'boolean',
-    },
-  },
 };
 
 export default meta;
